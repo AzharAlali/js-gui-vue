@@ -1,4 +1,4 @@
-const subtract = (x, y) => { return x - y }
+const muliplication = (x, y) => { return x * y }
 
 const subtracter = new Vue({
   el: '#subtracter',
@@ -10,7 +10,7 @@ const subtracter = new Vue({
     difference: function () {
       const i = parseInt(this.first)
       const j = parseInt(this.second)
-      return `The difference is ${subtract(i, j)}.`
+      return `The difference is ${muliplication(i, j)}.`
     }
   }
 })
